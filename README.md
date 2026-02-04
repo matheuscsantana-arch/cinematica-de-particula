@@ -1,13 +1,11 @@
 # 🏎️ Cinemática de Partícula
 
-Este é um projeto desenvolvido em **Python** voltado para o estudo da cinemática escalar. O software recebe uma equação polinomial de posição $s(t)$, realiza derivações simbólicas para encontrar as equações de velocidade $v(t)$ e aceleração $a(t)$, e gera gráficos comparativos para análise do movimento em um intervalo de tempo.
+Este é um projeto desenvolvido em Python voltado para o estudo da cinemática escalar. O software recebe uma equação polinomial de posição $s(t)$, realiza derivações simbólicas para encontrar as equações de velocidade $v(t)$ e aceleração $a(t)$, e gera gráficos da posição, velocidade e aceleração para análise do movimento em um intervalo de tempo.
 
 ## 💻 Tecnologias
-* **Linguagem:** Python
-* **Bibliotecas:** `numpy`, `matplotlib`, `sympy`
-* **Requisitos:** Python 3.x instalado e ambiente para exibição de gráficos (como Jupyter ou IDE local)
 
----
+- Python 3.10+.
+- Bibliotecas `numpy`, `matplotlib`, `sympy`
 
 ## ⚙️ Instalação
 1. Certifique-se de ter o Python e as bibliotecas necessárias instaladas:
@@ -32,13 +30,15 @@ python Cinematica_de_particula.py
 | **Visualização Gráfica** | Gera gráficos de posição, velocidade e aceleração. | Utiliza `matplotlib` para plotagem simultânea. |
 
 ## 🕹️ Como usar
-Inicie o programa e escolha [n] para começar a entrada de dados.
-Informe o grau do polinômio (ex: 2 para uma função quadrática).
-Insira os coeficientes para cada termo (ex: $t^2, t$ e termo constante).
-O programa exibirá as equações resultantes no console.
-Uma janela com os gráficos de Posição ($m$), Velocidade ($m/s$) e Aceleração ($m/s^2$) será aberta para análise.
+
+1. Inicie o programa e escolha [n] para começar a entrada de dados.
+2. Informe o grau do polinômio (ex: 2 para uma função quadrática).
+3. Insira os coeficientes para cada termo (ex: $t^2, t$ e termo constante).
+4. O programa exibirá as equações resultantes no console.
+5. Uma janela com os gráficos de Posição ($m$), Velocidade ($m/s$) e Aceleração ($m/s^2$) será aberta para análise.
 
 ## 💡 Exemplo de uso
+
 Ao inserir um polinômio de grau 2 com coeficientes para $s(t) = 5t^2 + 2t + 10$:
 s(t) = 5t**2 + 2t + 10
 v(t) = 10*t + 2
@@ -51,5 +51,5 @@ programa então plota as curvas de crescimento parabólico, linear e a aceleraç
 
 ## 👤 Autor
 
-Desenvolvido por Matheus Santana
-- Meu GitHub
+Feito por **Matheus Felipe Claudino de Santana**  
+GitHub: https://github.com/matheuscsantana-arch

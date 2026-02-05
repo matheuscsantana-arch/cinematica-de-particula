@@ -41,7 +41,7 @@ python cinematica_de_particula.py
 
 O programa vai perguntar ao usuário se ele deseja encerrar o programa.
 Ao digitar "n" o programa irá pedir o grau do polinômio e seus coeficientes.
-Inserindo 2 para o grau, 5 para o primeiro coeficiente e 10 para o último coeficiente:
+Inserindo 2 para o grau, 5 para o primeiro coeficiente, 2 para o segundo coeficiente e 10 para o último coeficiente:
 ![Polinômio de entrada](assets/polinomio.PNG)
 
 O programa calcula e exibe as equações do movimento:

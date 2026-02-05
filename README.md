@@ -11,7 +11,7 @@ Este é um projeto desenvolvido em Python voltado para o estudo da cinemática e
 1. Certifique-se de ter o Python e as bibliotecas necessárias instaladas:
 
 ```bash
-pip install numpy matplotlib sympy
+pip install -r requirements.txt
 ```
 
 2. Baixe o arquivo cinematica_de_particula.py.

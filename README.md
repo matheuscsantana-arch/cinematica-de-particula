@@ -14,11 +14,11 @@ Este é um projeto desenvolvido em Python voltado para o estudo da cinemática e
 pip install numpy matplotlib sympy
 ```
 
-2. Baixe o arquivo Cinematica_de_particula.py.
+2. Baixe o arquivo cinematica_de_particula.py.
 3. Execute o programa:
 
 ```bash
-python Cinematica_de_particula.py
+python cinematica_de_particula.py
 ```
 ## 🛠️ Funcionalidades
 

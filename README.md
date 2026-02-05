@@ -39,11 +39,21 @@ python cinematica_de_particula.py
 
 ## 💡 Exemplo de uso
 
-Ao inserir um polinômio de grau 2 com coeficientes para $s(t) = 5t^2 + 2t + 10$:
-s(t) = 5t**2 + 2t + 10
-v(t) = 10*t + 2
-a(t) = 10O 
-programa então plota as curvas de crescimento parabólico, linear e a aceleração constante.
+O programa vai perguntar ao usuário se ele deseja encerrar o programa.
+Ao digitar "n" o programa irá pedir o grau do polinômio e seus coeficientes.
+Inserindo 2 para o grau, 5 para o primeiro coeficiente e 10 para o último coeficiente:
+![Polinômio de entrada](assets/polinomio.PNG)
+
+O programa calcula e exibe as equações do movimento:
+![Equações do movimento](assets/equacoes.PNG)
+
+Em seguida plota os gráficos:
+![Gráfico da posição](assets/grafico_pos.PNG)
+![Gráfico da velocidade](assets/grafico_vel.PNG)
+![Gráfico da aceleração](assets/grafico_acel.PNG)
+
+Após fechar os gráficos, o programa pergunta ao usuário se ele deseja encerrar o programa:
+![Loop iterativo](assets/loop.PNG)
 
 ## 🚀 Status do Projeto
 
